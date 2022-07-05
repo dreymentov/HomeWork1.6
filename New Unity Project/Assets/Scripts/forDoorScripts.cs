@@ -16,7 +16,7 @@ public class forDoorScripts : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         _gO.transform.position += Vector3.right * speed * vectorSpeed;
         if((_gO.transform.position.x > maxRange) || (_gO.transform.position.x < -maxRange))
