@@ -1,5 +1,9 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/homework1.6.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/homework1.7.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
